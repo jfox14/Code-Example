@@ -1,7 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { connect } from 'react-redux'
-import { withRouter } from 'react-router'
 import api from '../services/api'
 
 function withContactFormStateAndHandlers (ComponentToWrap) {
