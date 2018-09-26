@@ -1,0 +1,26 @@
+{
+  "profiles": [
+  ],
+  "messageReasons": [
+    {
+      "id": "RiGow",
+      "text": "Feline behavior consultation",
+      "value": "FeBeCon"
+    },
+    {
+      "id": "TRQew",
+      "text": "Speaking engagement",
+      "value": "SpEn"
+    },
+    {
+      "id": "UyhNe",
+      "text": "Image likeness copyright inquires",
+      "value": "ImLiCoIn"
+    },
+    {
+      "id": "RwQee",
+      "text": "Other (Please explain)",
+      "value": "other"
+    }
+  ]
+}

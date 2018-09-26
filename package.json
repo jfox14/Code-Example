@@ -1,0 +1,29 @@
+{
+  "name": "vulpe",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "3.2.0",
+    "highcharts": "^6.0.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-flexbox-grid": "^2.0.0",
+    "react-fontawesome": "^1.6.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.0"
+  },
+  "devDependencies": {
+    "json-server": "^0.12.0",
+    "less": "^2.7.3",
+    "less-watch-compiler": "^1.8.0"
+  },
+  "scripts": {
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "build-css": "lessc src/resources/css/master.less src/resources/css/master.css",
+    "watch-css": "less-watch-compiler src/resources/css src/resources/css master.less",
+    "start": "yarn build-css && PORT=4000 react-scripts start",
+    "build": "yarn build-css &&  react-scripts build",
+    "start:devapi": "json-server --watch ./devApi/db.json --port 4001"
+  }
+}
