@@ -104,7 +104,6 @@ function withContactFormStateAndHandlers (ComponentToWrap) {
   }
 
   onReasonChange  = (e)  =>{
-    console.log(e)
     var re = /^[A-Za-z0-9 _]*[A-Za-z0-9][A-Za-z0-9 _]*$/
     var isMatch = re.test(e);
     var status = isMatch ? 'success' : 'error'
