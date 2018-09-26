@@ -50,6 +50,11 @@ function ContactForm (props) {
 
   ContactForm.propTypes = {
     handleSubmit: PropTypes.func.isRequired,
+    name: PropTypes.object.isRequired,
+    additionalInformation: PropTypes.object.isRequired,
+    reason: PropTypes.object.isRequired,
+    email: PropTypes.object.isRequired,
+    showSuccessMessage: PropTypes.bool.isRequired
   }
 
   export { ContactForm }
