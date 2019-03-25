@@ -4,7 +4,6 @@ This is a contact form I made for my Asian Leopard Cat, Darwin. I have used Reac
 
 While a simple application, the code demonstrates a bredth of common activities and design patterns I use frequently in my front end development.
 
-View hosted version: https://bit.ly/2xFbosC
 
 Run locally:
 
