@@ -2,7 +2,7 @@
 
 This is a contact form I made for my Asian Leopard Cat, Darwin. I have used Reactjs, Ant Design Component Library, Less, and JSON Prototyping API.
 
-While a simple application, the code demonstrates a bredth of common activities and design patterns I use frequently in my front end development.
+This code exemplifies the popular container / presentational design pattern in React, where UX rendering is seperated and injected with state handeling logic.
 
 
 Run locally:
