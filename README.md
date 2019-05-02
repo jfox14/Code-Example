@@ -1,6 +1,6 @@
-# Code-Example
+# React Container / Presentational Design Pattern
 
-This is a contact form I made for my Asian Leopard Cat, Darwin. I have used Reactjs, Ant Design Component Library, Less, and JSON Prototyping API.
+This is a contact form I made for my Asian Leopard Cat, Darwin. I have used React, Ant Design Component Library, Less, and JSON Prototyping API.
 
 This code exemplifies the popular container / presentational design pattern in React, where UX rendering is seperated and injected with state handeling logic.
 
